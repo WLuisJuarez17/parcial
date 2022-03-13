@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+body{
+    background-color: #192229;
+}
+
+header{ position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 175px;
+    text-align: center;
+}
+
+header .title-empleados h1 {
+    width: 90%;
+    min-width: 400px;
+    max-width: 400px;
+    height: 75px;
+    margin-top: 35px;
+    display: flex;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #212e36;
+    border-radius: 30px;
+    color: white;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+main a {
+    width: 90%;
+    max-width: 200px;
+    height: 50px;
+    margin-top: 35px;
+    display: flex;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #212e36;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+main a:hover{
+    color: #52a5e0;
+}
+
+#app{
+    background-color: #2a3b47;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+    color: white;
+}
+
+#app li{
+    list-style: none;
+    margin: 12px;
+    margin-top: 5px;
+}
+
